@@ -42,9 +42,24 @@ try:
 
     driver.find_element_by_xpath(
         '//*[@id="app"]/div/div[2]/div[2]/div/div[1]/div/div/div/div[1]/div[2]/div[2]/div[2]').click()
+    time.sleep(1)
+    driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[2]/div[1]/ul/li[3]').click()
+    time.sleep(0.3)
+    driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[2]/div[1]/ul/li[5]').click()
+    time.sleep(0.3)
+    driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[2]/div[1]/ul/li[7]').click()
+    time.sleep(0.3)
+    driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[2]/div[1]/ul/li[9]').click()
+    time.sleep(0.3)
     driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[2]/div[1]/ul/li[10]').click()
+    time.sleep(1)
+    time.sleep(0.3)
+    driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[2]/div[2]/ul/li[3]').click()
+    time.sleep(0.5)
+    driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[2]/div[2]/ul/li[5]').click()
+    time.sleep(0.5)
     driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[2]/div[2]/ul/li[6]').click()
-    driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[2]/div[3]/ul/li[1]').click()
+    time.sleep(0.5)
     driver.find_element_by_xpath('//*[@id="app"]/div/div[5]/div/div[1]/button[2]').click()
     driver.find_element_by_xpath(
         '//*[@id="app"]/div/div[2]/div[2]/div/div[1]/div/div/div/div[1]/div[2]/div[3]/div[2]/div/input').send_keys(
