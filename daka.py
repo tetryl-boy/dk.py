@@ -67,7 +67,7 @@ try:
     driver.find_element_by_xpath(
         '//*[@id="app"]/div/div[2]/div[2]/div/div[1]/div/div/div/div[1]/div[3]/div[2]/div[2]/div/i').click()
     driver.find_element_by_xpath(
-        '//*[@id="app"]/div/div[2]/div[2]/div/div[1]/div/div/div/div[1]/div[4]/div[2]/div[1]/div/i/').click()
+        '//*[@id="app"]/div/div[2]/div[2]/div/div[1]/div/div/div/div[1]/div[4]/div[2]/div[1]/div/i').click()
     driver.find_element_by_xpath(
         '//*[@id="app"]/div/div[2]/div[2]/div/div[1]/div/div/div/div[1]/div[5]/div[2]/div[2]/div/i').click()
     driver.find_element_by_xpath(
@@ -76,7 +76,7 @@ try:
         '//*[@id="app"]/div/div[2]/div[2]/div/div[1]/div/div/div/div[1]/div[7]/div[2]/div[2]/div/i').click()
     driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div/div[1]/div/div/div/div[1]/button').click()
 
-    time.sleep(5)
+    time.sleep(2)
 
     driver.close()
 
